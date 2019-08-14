@@ -1,4 +1,4 @@
-#import astar
+# Use a trained gcncheb network as a heuristic with A* 
 import sys
 import math
 import numpy as np 
@@ -19,7 +19,7 @@ import torch.optim as optim
 from abc import ABCMeta, abstractmethod
 from heapq import heappush, heappop
 
-from chebnetskip import GCN
+from Networks.GCN.chebnetskip import GCN
 
 
 class SokoNode:

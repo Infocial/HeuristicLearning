@@ -1,3 +1,4 @@
+# Trains a cnn network and produces validation and train error graphs (use: python3 thisFileName datasetName) ex. dataset medium9_2
 from simulator.sokoban_world import SokobanWorld
 import console_utils
 import numpy as np
@@ -11,7 +12,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 from random import Random
 # Net class
-from sokoconvReLU import SokoNet
+from Networks.CNN.sokoconvReLU import SokoNet
 # Pytorch imports
 import torch
 import torch.nn as nn

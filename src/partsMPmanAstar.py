@@ -1,4 +1,5 @@
-#import astar
+# Multiprocessing Astar for manhattan heuristic but split up into small parts
+# as some samples takes more than 12 hours on HPC node.
 import sys
 import math
 import numpy as np 

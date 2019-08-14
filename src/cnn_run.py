@@ -1,3 +1,4 @@
+# Trains a CNN for a single Epoch (use: "Python3 cnn_run.py medium9_2" for the medium9_2 dataset)
 from simulator.sokoban_world import SokobanWorld
 import console_utils
 import numpy as np
@@ -11,7 +12,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 from random import Random
 # Net class
-from sokoconv import SokoNet
+from Networks.CNN.sokoconv import SokoNet
 # Pytorch imports
 import torch
 import torch.nn as nn

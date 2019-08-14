@@ -1,3 +1,4 @@
+# Error per size graph, uses the output error produced by loadnetError.py
 import matplotlib
 import matplotlib.pyplot as plt 
 

@@ -1,3 +1,4 @@
+# Useful for multiprocessing, required to be in its own class
 def solveWrapper(tupNode):
 
     sokopathM = SokoSolver("manhattan",0)

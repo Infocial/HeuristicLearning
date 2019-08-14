@@ -1,3 +1,5 @@
+# Runs a trained network and tests it on a dataset producing dictionaries 
+# with errors per solutionsize and outputs average errors
 from simulator.sokoban_world import SokobanWorld
 import console_utils
 import numpy as np
@@ -9,7 +11,7 @@ import sys
 import os
 from random import Random
 # Net class
-from sokoconvReLU import SokoNet
+from Networks.CNN.sokoconvReLU import SokoNet
 #from chebnetskip import GCN
 # Pytorch imports
 import torch

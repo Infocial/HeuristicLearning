@@ -1,4 +1,4 @@
-# Charts
+# Produces error per solution graphs from numpy dicts created by loadnetError.py
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np

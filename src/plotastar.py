@@ -1,3 +1,4 @@
+# Plots Astar results produced by using dictionaries from other Astar scripts
 import sys
 import math
 import numpy as np 

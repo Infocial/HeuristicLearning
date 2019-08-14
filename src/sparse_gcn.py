@@ -1,3 +1,4 @@
+# Trains a gcn network on a sparse version of the data (use: python3 thisFileName datasetName) ex. dataset medium9_2
 from simulator.sokoban_world import SokobanWorld
 import console_utils
 import numpy as np
@@ -9,7 +10,7 @@ import sys
 import os
 from random import Random
 # Net class
-from var_sokogcnspmv import GCN
+from Networks.GCN.var_sokogcnspmv import GCN
 # Pytorch imports
 import torch
 import torch.nn as nn

@@ -1,4 +1,4 @@
-#import astar
+# Multiprocessing version of Astar for manhattan
 import sys
 import math
 import numpy as np 

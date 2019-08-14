@@ -1,4 +1,4 @@
-#import astar
+# Class for multiprocessing Astar. Used for manhattan heuristic only as it runs slow.
 import sys
 import math
 import numpy as np 
